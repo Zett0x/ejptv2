@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post-exploitation/pivoting/MetaSploit Pivoting.md",
+                "file": "enumeration/SNMP/SNMP enum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MetaSploit Pivoting"
+              "title": "SNMP enum"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "388f2906df93698e",
@@ -170,6 +171,17 @@
   },
   "active": "6fba6c090ba3c4c2",
   "lastOpenFiles": [
+    "Pasted image 20250212155044.png",
+    "enumeration/SNMP/info.md",
+    "enumeration/SNMP/SNMP enum.md",
+    "BRUTE FORCE/SNMP/Bruteforce for community strings.md",
+    "Pasted image 20250212154234.png",
+    "BRUTE FORCE/Untitled/desktop.ini",
+    "BRUTE FORCE/SNMP",
+    "post-exploitation/pivoting/MetaSploit Pivoting.md",
+    "enumeration/Untitled/desktop.ini",
+    "enumeration/SNMP",
+    "enumeration/smb or SAMBA/Enumerate SMB or SAMBA.md",
     "README.md",
     "Nuevo Documento de texto.txt",
     "Pasted image 20250212123244.png",
@@ -182,28 +194,21 @@
     "Pasted image 20250212121847.png",
     "Pasted image 20250212121704.png",
     "explotation/windows/psExec/PsExec.md",
-    "post-exploitation/pivoting/MetaSploit Pivoting.md",
     "post-exploitation/Untitled/desktop.ini",
     "post-exploitation/pivoting",
     "enumeration/windows/smb/SMB Enumeration.md",
-    "enumeration/smb or SAMBA/Enumerate SMB or SAMBA.md",
     "enumeration/windows/netBIOS/Enumerate NetBIOS.md",
     "post-exploitation/privilege scalation/linux/SUID binaries/find suid binaries.md",
     "enumeration/windows/Untitled/desktop.ini",
     "enumeration/windows/netBIOS",
     "information gathering/Untitled/desktop.ini",
-    "information gathering/passive information gathering",
-    "information gathering/active information gathering",
     "Reverse Shells.md",
     "enumeration/http/FUZZING/Gobuster.md",
     "enumeration/http/FUZZING/Wfuzz.md",
     "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
     "post-exploitation/dumping credentials/linux/dumping hashes in linux.md",
-    "Pasted image 20250211200820.png",
     "Upgrade shell to meterpreter.md",
     "post-exploitation/Transfer files.md",
-    "post-exploitation/dumping credentials/linux/desktop.ini",
-    "post-exploitation/dumping credentials/linux",
     "post-exploitation/privilege scalation/linux/SUID binaries/SUIDs info.md",
     "post-exploitation/privilege scalation/linux/cron jobs/Priv esc with cronjobs.md",
     "post-exploitation/privilege scalation/linux/kernel exploitation/linux-exploit-suggester.md",
@@ -211,10 +216,6 @@
     "BRUTE FORCE/SMB/Hydra SMB Bruteforce.md",
     "BRUTE FORCE/SSH/Hydra SSH brutecorce.md",
     "BRUTE FORCE/FTP/Hydra FTP bruteforce.md",
-    "BRUTE FORCE/HTTP/Hydra HTTP basic auth.md",
-    "post-exploitation/privilege scalation/windows/UAC bypass/Bypassing UAC with UACMe.md",
-    "BRUTE FORCE/WinRM/WinRM with metasploit.md",
-    "explotation/linux/BASH/Shellsock vuln.md",
-    "BRUTE FORCE/WinRM/WinRM with Crackmapexec.md"
+    "BRUTE FORCE/HTTP/Hydra HTTP basic auth.md"
   ]
 }

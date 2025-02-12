@@ -19,3 +19,18 @@ Esta herramienta la utilizamos para entrar a un recurso en concreto:
 Esta herramienta permite sacar una gran cantidad de información de un servicio SMB
 `enum4linux -a <ip> -u username -p password`
 enum4linux -a -u admin -p password1 demo.ine.local
+
+## commands
+
+Ver versión del smb
+```
+nmap -p445 --script smb-protocols demo.ine.local
+```
+Ver smb security level:
+```
+nmap -p445 --script smb-security-mode demo.ine.local
+```
+Enumerar usuarios
+```
+nmap -p445 --script smb-enum-users.nse  demo.ine.local
+```
