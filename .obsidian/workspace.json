@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "0588736b40a10772",
+    "type": "split",
+    "children": [
+      {
+        "id": "da2354df3004fea7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fba6c090ba3c4c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post-exploitation/pivoting/MetaSploit Pivoting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MetaSploit Pivoting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "386217cb1c78b369",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e2dc77fbfa08e8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cedaccafe7b9a18e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9a6a15fb8806d3d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9de619536d562fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "388f2906df93698e",
+    "type": "split",
+    "children": [
+      {
+        "id": "56c29f364df20b21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65b8f364dc01b22c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "enumeration/http/webdav/Webdav IIS ENUMERATION.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Webdav IIS ENUMERATION"
+            }
+          },
+          {
+            "id": "120e04572676bd69",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "enumeration/http/webdav/Webdav IIS ENUMERATION.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Webdav IIS ENUMERATION"
+            }
+          },
+          {
+            "id": "7cf57138ad4b9c10",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e08915f5e1b75965",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "enumeration/http/webdav/Webdav IIS ENUMERATION.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Webdav IIS ENUMERATION"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6fba6c090ba3c4c2",
+  "lastOpenFiles": [
+    "README.md",
+    "Nuevo Documento de texto.txt",
+    "Pasted image 20250212123244.png",
+    "Pasted image 20250212123152.png",
+    "Pasted image 20250212123027.png",
+    "Pasted image 20250212122944.png",
+    "Pasted image 20250212122754.png",
+    "Pasted image 20250212122121.png",
+    "Pasted image 20250212121954.png",
+    "Pasted image 20250212121847.png",
+    "Pasted image 20250212121704.png",
+    "explotation/windows/psExec/PsExec.md",
+    "post-exploitation/pivoting/MetaSploit Pivoting.md",
+    "post-exploitation/Untitled/desktop.ini",
+    "post-exploitation/pivoting",
+    "enumeration/windows/smb/SMB Enumeration.md",
+    "enumeration/smb or SAMBA/Enumerate SMB or SAMBA.md",
+    "enumeration/windows/netBIOS/Enumerate NetBIOS.md",
+    "post-exploitation/privilege scalation/linux/SUID binaries/find suid binaries.md",
+    "enumeration/windows/Untitled/desktop.ini",
+    "enumeration/windows/netBIOS",
+    "information gathering/Untitled/desktop.ini",
+    "information gathering/passive information gathering",
+    "information gathering/active information gathering",
+    "Reverse Shells.md",
+    "enumeration/http/FUZZING/Gobuster.md",
+    "enumeration/http/FUZZING/Wfuzz.md",
+    "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
+    "post-exploitation/dumping credentials/linux/dumping hashes in linux.md",
+    "Pasted image 20250211200820.png",
+    "Upgrade shell to meterpreter.md",
+    "post-exploitation/Transfer files.md",
+    "post-exploitation/dumping credentials/linux/desktop.ini",
+    "post-exploitation/dumping credentials/linux",
+    "post-exploitation/privilege scalation/linux/SUID binaries/SUIDs info.md",
+    "post-exploitation/privilege scalation/linux/cron jobs/Priv esc with cronjobs.md",
+    "post-exploitation/privilege scalation/linux/kernel exploitation/linux-exploit-suggester.md",
+    "post-exploitation/privilege scalation/linux/kernel exploitation/Kernel exploitation info.md",
+    "BRUTE FORCE/SMB/Hydra SMB Bruteforce.md",
+    "BRUTE FORCE/SSH/Hydra SSH brutecorce.md",
+    "BRUTE FORCE/FTP/Hydra FTP bruteforce.md",
+    "BRUTE FORCE/HTTP/Hydra HTTP basic auth.md",
+    "post-exploitation/privilege scalation/windows/UAC bypass/Bypassing UAC with UACMe.md",
+    "BRUTE FORCE/WinRM/WinRM with metasploit.md",
+    "explotation/linux/BASH/Shellsock vuln.md",
+    "BRUTE FORCE/WinRM/WinRM with Crackmapexec.md"
+  ]
+}
