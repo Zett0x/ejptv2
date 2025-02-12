@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "enumeration/SNMP/SNMP enum.md",
+                "file": "explotation/windows/smb/DNS and SMB Relay attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SNMP enum"
+              "title": "DNS and SMB Relay attack"
             }
           }
         ]
@@ -171,9 +171,12 @@
   },
   "active": "6fba6c090ba3c4c2",
   "lastOpenFiles": [
+    "enumeration/SNMP/SNMP enum.md",
+    "explotation/windows/smb/DNS and SMB Relay attack.md",
+    "information gathering/active information gathering/nmap port scanning.md",
+    "Pasted image 20250212160711.png",
     "Pasted image 20250212155044.png",
     "enumeration/SNMP/info.md",
-    "enumeration/SNMP/SNMP enum.md",
     "BRUTE FORCE/SNMP/Bruteforce for community strings.md",
     "Pasted image 20250212154234.png",
     "BRUTE FORCE/Untitled/desktop.ini",
@@ -191,8 +194,6 @@
     "Pasted image 20250212122754.png",
     "Pasted image 20250212122121.png",
     "Pasted image 20250212121954.png",
-    "Pasted image 20250212121847.png",
-    "Pasted image 20250212121704.png",
     "explotation/windows/psExec/PsExec.md",
     "post-exploitation/Untitled/desktop.ini",
     "post-exploitation/pivoting",
@@ -215,7 +216,6 @@
     "post-exploitation/privilege scalation/linux/kernel exploitation/Kernel exploitation info.md",
     "BRUTE FORCE/SMB/Hydra SMB Bruteforce.md",
     "BRUTE FORCE/SSH/Hydra SSH brutecorce.md",
-    "BRUTE FORCE/FTP/Hydra FTP bruteforce.md",
-    "BRUTE FORCE/HTTP/Hydra HTTP basic auth.md"
+    "BRUTE FORCE/FTP/Hydra FTP bruteforce.md"
   ]
 }
