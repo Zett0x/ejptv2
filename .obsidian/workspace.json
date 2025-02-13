@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explotation/windows/smb/DNS and SMB Relay attack.md",
+                "file": "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS and SMB Relay attack"
+              "title": "Shellsock-CVE-2014-6271"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "388f2906df93698e",
@@ -171,9 +170,18 @@
   },
   "active": "6fba6c090ba3c4c2",
   "lastOpenFiles": [
-    "enumeration/SNMP/SNMP enum.md",
-    "explotation/windows/smb/DNS and SMB Relay attack.md",
+    "explotation/vuln scanning/nmap vuln scan.md",
+    "Pasted image 20250213123058.png",
     "information gathering/active information gathering/nmap port scanning.md",
+    "explotation/Untitled/desktop.ini",
+    "explotation/vuln scanning",
+    "information gathering/active information gathering/NetCat Grab  Banner.md",
+    "Pasted image 20250213120534.png",
+    "Pasted image 20250213120430.png",
+    "explotation/windows/smb/Pass The Hash Attack.md",
+    "explotation/windows/smb/DNS and SMB Relay attack.md",
+    "information gathering/active information gathering/host discovery.md",
+    "enumeration/SNMP/SNMP enum.md",
     "Pasted image 20250212160711.png",
     "Pasted image 20250212155044.png",
     "enumeration/SNMP/info.md",
@@ -191,9 +199,6 @@
     "Pasted image 20250212123152.png",
     "Pasted image 20250212123027.png",
     "Pasted image 20250212122944.png",
-    "Pasted image 20250212122754.png",
-    "Pasted image 20250212122121.png",
-    "Pasted image 20250212121954.png",
     "explotation/windows/psExec/PsExec.md",
     "post-exploitation/Untitled/desktop.ini",
     "post-exploitation/pivoting",
@@ -201,8 +206,6 @@
     "enumeration/windows/netBIOS/Enumerate NetBIOS.md",
     "post-exploitation/privilege scalation/linux/SUID binaries/find suid binaries.md",
     "enumeration/windows/Untitled/desktop.ini",
-    "enumeration/windows/netBIOS",
-    "information gathering/Untitled/desktop.ini",
     "Reverse Shells.md",
     "enumeration/http/FUZZING/Gobuster.md",
     "enumeration/http/FUZZING/Wfuzz.md",
@@ -211,11 +214,6 @@
     "Upgrade shell to meterpreter.md",
     "post-exploitation/Transfer files.md",
     "post-exploitation/privilege scalation/linux/SUID binaries/SUIDs info.md",
-    "post-exploitation/privilege scalation/linux/cron jobs/Priv esc with cronjobs.md",
-    "post-exploitation/privilege scalation/linux/kernel exploitation/linux-exploit-suggester.md",
-    "post-exploitation/privilege scalation/linux/kernel exploitation/Kernel exploitation info.md",
-    "BRUTE FORCE/SMB/Hydra SMB Bruteforce.md",
-    "BRUTE FORCE/SSH/Hydra SSH brutecorce.md",
-    "BRUTE FORCE/FTP/Hydra FTP bruteforce.md"
+    "post-exploitation/privilege scalation/linux/cron jobs/Priv esc with cronjobs.md"
   ]
 }
