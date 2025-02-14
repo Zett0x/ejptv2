@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
+                "file": "explotation/Exploit Search/public search/rapid7.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shellsock-CVE-2014-6271"
+              "title": "rapid7.com"
             }
           }
         ]
@@ -170,10 +170,19 @@
   },
   "active": "6fba6c090ba3c4c2",
   "lastOpenFiles": [
+    "explotation/Exploit Search/public search/exploit-db.com.md",
+    "explotation/Exploit Search/public search/rapid7.com.md",
+    "explotation/Exploit Search/local search/SearchSploit.md",
+    "explotation/vuln scanning/MetaSploit Vuln Scan.md",
+    "explotation/Exploit Search/Untitled/desktop.ini",
+    "explotation/Exploit Search/public search",
+    "explotation/Exploit Search/local search",
+    "explotation/Untitled/desktop.ini",
+    "explotation/Exploit Search",
+    "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
     "explotation/vuln scanning/nmap vuln scan.md",
     "Pasted image 20250213123058.png",
     "information gathering/active information gathering/nmap port scanning.md",
-    "explotation/Untitled/desktop.ini",
     "explotation/vuln scanning",
     "information gathering/active information gathering/NetCat Grab  Banner.md",
     "Pasted image 20250213120534.png",
@@ -194,26 +203,18 @@
     "enumeration/SNMP",
     "enumeration/smb or SAMBA/Enumerate SMB or SAMBA.md",
     "README.md",
-    "Nuevo Documento de texto.txt",
     "Pasted image 20250212123244.png",
     "Pasted image 20250212123152.png",
     "Pasted image 20250212123027.png",
     "Pasted image 20250212122944.png",
     "explotation/windows/psExec/PsExec.md",
-    "post-exploitation/Untitled/desktop.ini",
-    "post-exploitation/pivoting",
     "enumeration/windows/smb/SMB Enumeration.md",
     "enumeration/windows/netBIOS/Enumerate NetBIOS.md",
     "post-exploitation/privilege scalation/linux/SUID binaries/find suid binaries.md",
-    "enumeration/windows/Untitled/desktop.ini",
     "Reverse Shells.md",
     "enumeration/http/FUZZING/Gobuster.md",
     "enumeration/http/FUZZING/Wfuzz.md",
-    "explotation/linux/APACHE+CGI+OLD BASH VERSION/Shellsock-CVE-2014-6271.md",
     "post-exploitation/dumping credentials/linux/dumping hashes in linux.md",
-    "Upgrade shell to meterpreter.md",
-    "post-exploitation/Transfer files.md",
-    "post-exploitation/privilege scalation/linux/SUID binaries/SUIDs info.md",
-    "post-exploitation/privilege scalation/linux/cron jobs/Priv esc with cronjobs.md"
+    "Upgrade shell to meterpreter.md"
   ]
 }
