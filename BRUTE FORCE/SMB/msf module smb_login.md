@@ -1,0 +1,1 @@
+Podemos hacer fuerza bruta con el módulo: `auxiliary/scanner/smb/smb_login`

