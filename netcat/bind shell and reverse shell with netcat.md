@@ -1,4 +1,7 @@
-Una bind shell es cuando el atacante se conecta mediante netcat a un cliente netcat corriendo en un puerto en la máquina víctima. El principal problema de esto es que normalmente el firewall bloquea las conexiones entrantes por lo que es preferido por parte de los atacantes usar reverse_shells.
+Una bind shell es cuando el atacante se conecta mediante netcat a un cliente netcat corriendo en un puerto en la máquina víctima. El principal problema de esto es que normalmente el firewall bloquea las conexiones entrantes por lo que es preferido por parte de los atacantes usar reverse_shells
+
+NOTA: No es necesario usar netcat cliente para establecer una conexión con un netcat listener, se pueden usar otras aplicaciones como bash. En este repo tienes muchas formas de conectarte https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+Otro recurso donde se generar las rev shell ya con la ip y el lenguaje o binario que escojamos para establecer la conexión es: https://www.revshells.com
 
 
 ## Cómo crear una bind_shell
