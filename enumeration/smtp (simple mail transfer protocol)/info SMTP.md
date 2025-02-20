@@ -1,0 +1,1 @@
+**SMTP (Simple Mail Transfer Protocol)**: Se usa para el envío de correos electrónicos. Generalmente corre en los puertos **25/TCP**, **587/TCP** o **465/TCP**.

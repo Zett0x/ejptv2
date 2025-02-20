@@ -13,3 +13,4 @@ Nos mostrará mucha información, entre ella usuarios:
 ![[Pasted image 20250212155044.png]]
 
 Podemos ejecutar ahora fuerza bruta con esos usuarios
+
