@@ -1,0 +1,1 @@
+`use auxiliary/scanner/mssql/mssql_login`

