@@ -1,6 +1,6 @@
 # TCP
 
-`nmap -sS --open -p- -T4 -Pn -n -sVC -v demo.ine.local -oN scan`
+`nmap -sS --open -p- -T4 -Pn -n -sVC -O -v demo.ine.local -oN scan_tcp`
 
 # UDP
 `nmap -sU -p- -sV --open <ip>`
