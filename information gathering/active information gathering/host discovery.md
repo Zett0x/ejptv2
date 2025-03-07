@@ -1,3 +1,3 @@
 ## nmap
 
-`nmap -sn -PS80,22,445 <targetip>`
+`nmap -sn -PS80,22,445 192.168.100.0/24`
