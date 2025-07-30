@@ -41,6 +41,7 @@ o proporcionando usuario y contraseña validos:
 Esta herramienta la utilizamos para entrar a un recurso en concreto:
 
 `smbclient //targetip/recuso_compartido -U username `
+ejemplo: `smbclient "//10.129.43.43/Department Shares" -U htb-student`
 
 ## enum4linux
 Esta herramienta permite sacar una gran cantidad de información de un servicio SMB
