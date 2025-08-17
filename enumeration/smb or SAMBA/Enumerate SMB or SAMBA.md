@@ -44,7 +44,7 @@ Esta herramienta la utilizamos para entrar a un recurso en concreto:
 ejemplo: `smbclient "//10.129.43.43/Department Shares" -U htb-student`
 
 ## enum4linux
-Esta herramienta permite sacar una gran cantidad de información de un servicio SMB
+Esta herramienta permite sacar una gran cantidad de información de un servicio SMB/Samba
 `enum4linux -a <ip> -u username -p password`
 enum4linux -a -u admin -p password1 demo.ine.local
 
