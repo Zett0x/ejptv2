@@ -111,7 +111,7 @@ done
 ### 📌 Ejemplos prácticos
 ```bash
 # Conexión anónima (null session)
-rpcclient -U "" -N 10.10.10.5
+rpcclient -N -U "" IP
 
 # Info del servidor
 rpcclient $> srvinfo
