@@ -116,7 +116,7 @@ rpcclient -N -U "" IP
 # Info del servidor
 rpcclient $> srvinfo
 
-# Shares disponibles
+# Shares disponibles (muestra la ruta local absoluta donde se alojan esos recursos compartidos, si el servidor es un windows y porne C:\home\user, en realidad estára en /home/user)
 rpcclient $> netshareenumall
 
 # Info de un share concreto
