@@ -1,4 +1,4 @@
-# 📬 IMAP / POP3 – Resumen
+# 📬 IMAP / POP3 
 
 Los protocolos **IMAP (Internet Message Access Protocol)** y **POP3 (Post Office Protocol v3)** permiten a los clientes acceder a correos almacenados en un servidor de correo.  
 
@@ -89,6 +89,19 @@ Los protocolos **IMAP (Internet Message Access Protocol)** y **POP3 (Post Office
 - **ncat** → también permite conexión manual con TLS.  
 
 ---
+#### netcat banner grab
+
+Podremos obtener versiones u otra información.
+###### IMAP
+```bash
+ nc 10.129.36.115 143
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS LOGINDISABLED] HTB{roncfbw7iszerd7shni7jr2343zhrj}
+
+```
+##### POP3
+```bash
+nc 10.129.36.115 110
+```
 
 ## 📌 Riesgos
 - Con credenciales válidas, un atacante puede **leer y enviar correos**.  
@@ -103,3 +116,5 @@ Los protocolos **IMAP (Internet Message Access Protocol)** y **POP3 (Post Office
 3. Intentar autenticación con credenciales descubiertas.  
 4. Usar `cURL`, `openssl` o clientes IMAP/POP3 para navegar el buzón.  
 5. Buscar flags, contraseñas o información sensible.  
+
+VER COMANDOS EN EL FICHERO IMAP_COMMANDS
