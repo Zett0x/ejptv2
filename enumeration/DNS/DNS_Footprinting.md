@@ -1,4 +1,4 @@
-# 🌐 DNS – Resumen de Footprinting
+# 🌐 DNS – Footprinting
 
 El **Domain Name System (DNS)** traduce nombres de dominio en direcciones IP.  
 Es como una guía telefónica distribuida: no tiene una base central, sino miles de servidores repartidos globalmente.
@@ -86,6 +86,30 @@ Configuraciones peligrosas:
   dig any inlanefreight.htb @10.129.14.128
   ```
 
+### 📝 Nota rápida sobre AXFR
+
+- Una **transferencia de zona (AXFR)** muestra los registros de un dominio/subdominio.
+    
+- **Si la transferencia de zona de un subdominio no devuelve nada → NO significa que no existan más subdominios.**
+    
+- Esos hosts pueden descubrirse con **fuerza bruta de subdominios** usando diferentes wordlists.
+    
+#### Ejemplo
+
+1. Transferencia de zona de `inlanefreight.htb` devuelve varios subdominios, entre ellos `internal.inlanefreight.htb`.
+    
+2. Hacemos AXFR de `internal.inlanefreight.htb` → aparecen más hosts como `dc1.internal.inlanefreight.htb`.
+    
+3. También vemos `dev.inlanefreight.htb`. Su AXFR no devuelve nada, pero con fuerza bruta (ej: `dnsenum`) descubrimos:
+    
+
+`dev1.dev.inlanefreight.htb.   604800 IN A 10.12.3.6 ns.dev.inlanefreight.htb.     604800 IN A 127.0.0.1 vpnx.dev.inlanefreight.htb.   604800 IN A 10.12.1.254 win2k.dev.inlanefreight.htb.  604800 IN A 10.12.3.203`
+
+✅ El host **`win2k.dev.inlanefreight.htb`** (10.12.3.203) era justo el que buscábamos. (en el assessment de htb)
+
+**NOTA:** probar distintos wordlists. En este caso usé:  
+`/usr/share/seclists/Discovery/DNS/namelist.txt`
+
 ### 🔹 Zone Transfer (AXFR)
 Permite clonar la **zona DNS completa** si está mal configurado:
 ```bash
@@ -121,3 +145,4 @@ dig axfr inlanefreight.htb @10.129.14.128
 ✅ **En resumen**:  
 El DNS no solo resuelve nombres, también es una **fuente de inteligencia crítica**.  
 Una mala configuración como permitir **AXFR** equivale a entregar un mapa completo de la red al atacante.
+
