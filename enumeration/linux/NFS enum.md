@@ -3,7 +3,7 @@ NFS es un servicio compatible con dispositivos Linux para compartir archivos y d
 Puerto por defecto: 2049
 ## Mostrar recursos compartidos
 
-`showmount -e <ipservidor nfs`
+`showmount -e <ipservidor nfs`>
 ![[Pasted image 20250314112221.png]]
 
 ## Mostrar fichero donde se listan los directorios compartidos
