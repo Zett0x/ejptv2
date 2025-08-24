@@ -2,6 +2,7 @@
 
 **NFS (Network File System)** permite acceder a sistemas de archivos remotos como si fueran locales.  
 Funciona principalmente entre **Linux y Unix** y se basa en **ONC-RPC (SUN-RPC)**.  
+NOTA: Me lo encontré en un challenge en un servidor windows.
 
 ---
 

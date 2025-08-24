@@ -157,6 +157,16 @@ rpcclient $> querygroup 0x201
   ```bash
   crackmapexec smb IP --shares -u '' -p ''
   ```
+NOTA IMPORTANTE: 
+Usar comillas simples porque a veces, caracteres extraños en las contraseñas darán error y no se escapa con "\".
+Comando que funcionó:
+```bash
+crackmapexec smb 10.129.39.27 -u alex -p 'lol123!mD'
+```
+Comando que **NO funcionó**:
+```bash
+crackmapexec smb 10.129.39.27 -u alex -p "lol123!mD"
+```
 
 - **Enum4linux-ng** → automatiza muchas consultas de SMB:  
   ```bash

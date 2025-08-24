@@ -50,6 +50,7 @@ Con estas opciones un atacante puede:
   ftp> status     # muestra configuración de la sesión
   ftp> debug      # activa salida detallada
   ftp> trace      # traza los comandos enviados/recibidos
+  ftp> ls -la      # Muestra directorios y archivos ocultos
   ```
 - Descargar archivos:  
   ```bash
