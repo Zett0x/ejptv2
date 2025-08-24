@@ -90,6 +90,13 @@ Brute-force de *community strings*:
 onesixtyone -c /usr/share/seclists/Discovery/SNMP/snmp.txt 10.129.14.128
 ```
 
+Resultado de ejemplo:
+```bash
+10.129.51.46 [backup] Linux NIXHARD 5.4.0-90-generic #101-Ubuntu SMP Fri Oct 15 20:00:55 UTC 2021 x86_64
+```
+Lo que significa que `backup` es una community string válida
+
+
 ### 🗂 braa
 Brute-force de OIDs con una community string conocida:
 ```bash
