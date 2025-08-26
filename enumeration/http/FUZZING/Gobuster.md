@@ -12,6 +12,11 @@ gobuster dir -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u 
 ### vhost
 gobuster vhost -u http://titanic.htb -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain -r
 
+NOTA: Usad varios diccionarios, usando el arriba descrito no encontré un subdominio y usando
+```bash
+gobuster vhost -w /usr/share/wordlists/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -u http://planning.htb/ -t 100 -r --append-domain
+```
+si encontré grafana.planing.htb
 ### dns
 
 
