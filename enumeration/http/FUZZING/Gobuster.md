@@ -17,6 +17,12 @@ NOTA: Usad varios diccionarios, usando el arriba descrito no encontré un subdom
 gobuster vhost -w /usr/share/wordlists/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -u http://planning.htb/ -t 100 -r --append-domain
 ```
 si encontré grafana.planing.htb
+
+There are a couple of other arguments that are worth knowing:
+
+- Consider using the `-t` flag to increase the number of threads for faster scanning.
+- The `-k` flag can ignore SSL/TLS certificate errors.
+- You can use the `-o` flag to save the output to a file for later analysis.
 ### dns
 
 
