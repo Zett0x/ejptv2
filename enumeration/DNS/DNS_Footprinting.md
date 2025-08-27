@@ -131,6 +131,14 @@ dig axfr inlanefreight.htb @10.129.14.128
           inlanefreight.htb
   ```
 
+De subdominios sin indicar servidor dns, por lo que buscará de forma público:
+```bash
+dnsenum --enum inlanefreight.com -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -r
+```
+
+- `-r`: This option enables recursive subdomain brute-forcing, meaning that if `dnsenum` finds a subdomain, it will then try to enumerate subdomains of that subdomain.
+-  `-f /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt`: We indicate the path to the SecLists wordlist we'll use for brute-forcing. Adjust the path if your SecLists installation is different.
+
 ---
 
 ## 📌 Claves para un pentester
